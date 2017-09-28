@@ -5,15 +5,15 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/*@RefreshScope
+@RefreshScope
 @RestController
-public class ConfigClientController {
+public class ConfigServerController {
 
-	@Value("${from}")
+	/*@Value("${from}")
 	private String from;
 	
 	@RequestMapping("/from")
 	public String fromValue() {
 		return from;
-	}
-}*/
+	}*/
+}
